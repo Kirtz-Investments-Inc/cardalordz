@@ -2,7 +2,7 @@
     font-size:10px;
 }
 .first{
-    margin-bottom:100px;
+    margin-bottom:0px;
 }
 .bio-header{
     position: relative;
@@ -108,4 +108,231 @@
 }
 .first-col{
     margin-top:40px;
+}
+
+
+.nav-link{
+    color:#030924;
+}
+.social-link{
+    color:#899df7;
+    border:1px solid white;
+}
+.social-link:hover{
+    background-color:#899df7;
+    border: 1px solid #899df7;
+}
+.social-link-1{
+    background-color:white;
+    border:1px solid white;
+    margin-bottom:20px;
+}
+.logo-span{
+        font-size:40px;
+    }
+    .nav-link{
+        font-size:23px;
+    }
+    #hero{
+        height:550px;
+    }
+
+    @media only screen and (max-width:500px){
+.social-link{
+display:none;
+}
+.logo-span{
+font-size:14px;
+}
+.logo-img{
+height:50px;
+}
+.nav-link{
+font-size:18px;
+}
+.social-link{
+width:20%;
+margin-top:20px;
+}
+.counter{
+margin-top:30px;
+}
+#hero{
+height:430px;
+}
+
+.social-link{
+    display:none;
+}
+.logo-span{
+    font-size:20px;
+}
+.logo-img{
+    height:50px;
+}
+.nav-link{
+    font-size:18px;
+}
+.social-link{
+    width:20%;
+    margin-top:20px;
+}
+.counter{
+    margin-top:30px;
+}
+#hero{
+    height:430px;
+}
+.gif-img{
+    height:300px;
+    width:400px;
+}
+.carousel-card img{
+    height:300px;
+    width:300px;
+    border-radius:10px;
+}
+#roadmap{
+    margin-top:0px;
+}
+.roadmap-h2{
+    font-size:30px;
+}
+.first-img-1{
+    display:none;
+}
+.question{
+    font-size:30px;
+    font-weight:600;
+}
+.answer{
+    font-size:30px;
+    font-weight:600;
+}
+.member-name{
+    font-size:30px;
+}
+.first,.second, .third{
+   position: relative;
+   bottom:40px;
+}
+.assad-row{
+    position:relative;
+    bottom:120px;
+}
+.aussie-row{
+    position:relative;
+    bottom:120px;
+}
+.circle-row{
+    position: relative;
+    bottom:250px;
+}
+.fourth{
+    position:relative;
+    bottom:20px;
+}
+.jack-row{
+    margin-top:200px;
+}
+.vl{
+    display:none;
+}
+.kelly-row{
+    margin-top:60px;
+}
+.social-link{
+    display:none;
+}
+.question{
+    font-size:30px;
+    font-weight:600;
+}
+.answer{
+    font-size:30px;
+    font-weight:600;
+}
+
+.first-row{
+    margin-bottom:0px;
+    padding:0px;
+    margin-top:30px;
+}
+.first-col{
+    font-size:10px;
+}
+#discord2{
+    padding:0px;
+    padding-bottom:50px;
+}
+.discord-link{
+    margin-top:10px;
+}
+.member-name{
+    font-size:30px;
+}
+.first,.second, .third{
+   position: relative;
+   bottom:40px;
+}
+.assad-row{
+    position:relative;
+    bottom:120px;
+}
+.aussie-row{
+    position:relative;
+    bottom:120px;
+}
+.circle-row{
+    position: relative;
+    bottom:250px;
+}
+.fourth{
+    position:relative;
+    bottom:20px;
+}
+.jack-row{
+    margin-top:200px;
+}
+.vl{
+    display:none;
+}
+.kelly-row{
+    margin-top:60px;
+}
+.link{
+    text-align: center;
+}
+.member-name{
+    font-size:30px;
+}
+.logo-span{
+    font-size:20px;
+}
+.logo-img{
+    height:50px;
+}
+.nav-link{
+    font-size:18px;
+}
+.social-link{
+    width:20%;
+    margin-top:20px;
+}
+.counter{
+    margin-top:30px;
+}
+#hero{
+    height:430px;
+}
+}
+#hero{
+    height:400px;
+}
+.jack-row-1{
+    margin-top:200px;
+}
+.presentation-p{
+    font-size:16px;
+}
 }
