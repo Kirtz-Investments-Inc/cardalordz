@@ -1,6 +1,13 @@
 .example-p{
     font-size:10px;
 }
+.first{
+    margin-bottom:100px;
+}
+.bio-header{
+    position: relative;
+    bottom:20px;
+}
 .jack-graham{
     margin-bottom:180px;
 }
@@ -12,4 +19,93 @@
 }
 .josh-munson{
     margin-bottom:40px;
+}
+.covenant-scroll img{
+    height:100vh;
+    width:100%;
+}
+#hero{
+    background-image:url("../assets/img/castles-top-s.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.logo-img{
+    height:100px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.second{
+    margin-bottom:40px;
+}
+.third{
+    margin-bottom:20px;
+}
+.fourth{
+    margin-bottom:60px;
+}
+.fifth{
+    margin-bottom:30px;
+}
+.sixth{
+    margin-bottom:30px;
+}
+.seventh{
+    margin-bottom:60px;
+}
+.member-img{
+    height:300px;
+    width:400px;
+}
+.twitter-link{
+    margin-top:30px;
+}
+.vl {
+    border-left: 2px solid #899df7;
+    height: 500px;
+    position: relative;
+    left:100px;
+    bottom:100px;
+  }
+  .third-v1{
+    position: relative;
+    bottom:135px;
+  }
+  .sixth-v1{
+    position: relative;
+    bottom:95px;
+  }
+  .seventh-v1{
+    position: relative;
+    bottom:95px;
+  }
+#hero{
+    height:550px;
+}
+#discord2{
+    background-image: url(../assets/img/discord_background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:30px;
+    padding-bottom:50px;
+}
+#discord2 p{
+    color:white;
+}
+.disc-btn{
+    margin-top:20px;
+    text-decoration: none;
+    background-color: #6394fd;
+    color:white;
+    padding:10px 20px;
+    font-weight:600;
+}
+.first-row{
+    margin-bottom:0px;
+    margin-top:30px;
+}
+.first-col{
+    margin-top:40px;
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="sr">
     <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -15,121 +16,151 @@
         <link href="css/carousel.css" rel="stylesheet">
         <link href="css/countdown.css" rel="stylesheet">
         <link href="css/covenant.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/mystyle.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .nav-link{
+                color:#030924;
+            }
+            .social-link{
+                color:#899df7;
+                border:1px solid white;
+            }
+            .social-link:hover{
+                background-color:#899df7;
+                border: 1px solid #899df7;
+            }
+            .social-link-1{
+                background-color:white;
+                border:1px solid white;
+                margin-bottom:20px;
+            }
+            .logo-span{
+                    font-size:40px;
+                }
+                .nav-link{
+                    font-size:23px;
+                }
+                #hero{
+                    height:550px;
+                }
+                
+
+            @media (max-width:500px){
+                .social-link{
+                    display:none;
+                }
+                .logo-span{
+                    font-size:20px;
+                }
+                .logo-img{
+                    height:50px;
+                }
+                .nav-link{
+                    font-size:18px;
+                }
+                .social-link{
+                    width:20%;
+                    margin-top:20px;
+                }
+                .counter{
+                    margin-top:30px;
+                }
+                #hero{
+                    height:430px;
+                }
+            }
+        </style>
 
     </head>
-    <body style="height: 100%;">
+    <body style="height: 100%;background-color:#030924;">
     <noscript>
         "<b>We apologize, but the Cardalordz™️ site does not work without JavaScript enabled. Please enable JavaScript to continue.</b>"
     </noscript>
+    <section id="hero">
+        <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg" style="padding-top:30px;">
+            <a class="navbar-brand" style="text-decoration: none;" href="#"><img src="./assets/img/logo-tree.png" class="logo-img"><span class="logo-span" style="color:white;font-weight:600;text-decoration: none;margin-left:20px;margin-top:30px;">Cardalordz</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa fa-2x fa-bars" style="color: #030924;" aria-hidden="true"></i></span>
+              </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link link1" style="text-decoration: none;margin-right:20px;" href="index.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="text-decoration: none;margin-right:20px;" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="text-decoration: none;margin-right:20px;" href="covenant.html">Convenant</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="text-decoration: none;margin-right:20px;"  href="faqs.html">FAQs</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link social-link" style="text-decoration: none;margin-right:20px;font-size:23px;padding:10px;border-radius: 5px;"  href="https://twitter.com/cardalordz"><img src="./assets/img/twitter.png" style="height:30px;"></a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link social-link" style="text-decoration: none;margin-right:20px;font-size:23px;padding:10px;border-radius: 5px;"  href="https://discord.com/invite/cardalordz"><img src="./assets/img/discord.png" style="height:30px;"></a>
+                  </li>
+
+              </ul>
+              
+            </div>
+          </nav>
+
+          <div class="counter" style="font-size:30px;">
+            <h3 style="font-size:10px; margin-top:0px;">
+                <a style="font-size:20px;" href="https://logwork.com/countdown-r29s" class="countdown-timer" data-timezone="Asia/Kolkata" data-textcolor="#000000" data-date="2021-11-06 12:46" data-background="#687fc2" data-digitscolor="#ffffff" data-unitscolor="#ffffff">Countdown</a>
+            </h3>
+          </div>
+
+        </div>
+    </section>
     <div id="app" data-v-app>
         <div id="project">
             <div id="home">
-                <section id="hero">
-                    <header class="container row sr-top-slow" data-sr-id="0" >
-                        <div class="logo row">
-                            <div class="carda-logo"></div>
-                            <div class="typo">Cardalordz</div>
-                            <div class="nav-top-left">
-                                <a href="/index.html">Home</a>
-                            </div>
-                            <div class="nav-top-left">
-                                <a href="/aboutus.html">About Us</a>
-                            </div>
-                            <div class="nav-top-left">
-                                <a href="/covenant.html">Covenant</a>
-                            </div>
-                            <div class="nav-top-left">
-                                <a href="/faqs.html">FAQs</a>
-                            </div>
-                        </div>
-                        <div class="socialnav row">
-                            <div class="link">
-                                <a href="https://twitter.com/cardalordz" name="twitternav" rel="noopener" target="_blank" class="twitter row"></a>
-                            </div>
-                            <div class="link">
-                                <a href="https://discord.com/invite/cardalordz" name="discordnav" rel="noopener" target="_blank" class="discord row"></a>
-                            </div>
-                            <div id="connect-btn">
-                                <button class="wallet">
-                                    <span class="dot"></span>
-                                    Buy Cardalordz
-                                </button>
-                            </div>
-                        </div>
-                    </header>
+                
 
-                    <a class="hero-main-btn clickable" id="hero-main-btn" href="#" target="_blank">
-                        <div class="element">
-                            <div id="clockdiv">
-                                <div>
-                                  <span class="days"></span>
-                                  <div class="smalltext">Days</div>
-                                </div>
-                                <div>
-                                  <span class="hours"></span>
-                                  <div class="smalltext">Hours</div>
-                                </div>
-                                <div>
-                                  <span class="minutes"></span>
-                                  <div class="smalltext">Minutes</div>
-                                </div>
-                                <div>
-                                  <span class="seconds"></span>
-                                  <div class="smalltext">Seconds</div>
-                                </div>
-                              </div>
+                <section id ="images">
+                    <div class="container-fluid">
+                        <div class="first-img">
+                            <img src="./assets/scrolls/1.png" class="first">
                         </div>
-                    </a>
-
-                    <div style="transform: translateY(0px);">
-                        <img src="/assets/img/castles-top-s.png" alt="castles banner">
-                        <!--
-                        <video id="hero-video" tabindex="0" preload playsinline>
-                            <source src="/assets/img/castles-top-s.png" type="video/mp4">
-                        </video>
-                        -->
-                    </div>
-                </section>
-                <section id="covenant">
-                    <div class="covenant-container">
-                        <div class="covenant-scroll">
-                            <img src="/assets/scrolls/1.png" alt="white paper page 1">
+                        <div class="first-img">
+                            <img src="./assets/scrolls/2.png" class="first">
                         </div>
-                        <div class="covenant-scroll">
-                            <img src="/assets/scrolls/2.png" alt="white paper page 2">
+                        <div class="first-img">
+                            <img src="./assets/scrolls/3.png" class="first">
                         </div>
-                        <div class="covenant-scroll">
-                            <img src="/assets/scrolls/3.png" alt="white paper page 3">
+                        <div class="first-img">
+                            <img src="./assets/scrolls/4.png" class="first"> 
                         </div>
-                        <div class="covenant-scroll">
-                            <img src="/assets/scrolls/4.png" alt="white paper page 4">
+                        <div class="first-img">
+                            <img src="./assets/scrolls/6.png" class="first">
                         </div>
-                        <div class="covenant-scroll">
-                            <img src="/assets/scrolls/5.png" alt="white paper page 5">
+                        <div class="first-img">
+                            <img src="./assets/scrolls/7.png" class="first">
                         </div>
-                        <div class="covenant-scroll">
-                            <img src="/assets/scrolls/6.png" alt="white paper page 6">
+                        <div class="first-img">
+                            <img src="./assets/scrolls/8.png" class="first">
                         </div>
-                        <div class="covenant-scroll">
-                            <img src="/assets/scrolls/7.png" alt="white paper page 7">
+                        <div class="first-img">
+                            <img src="./assets/scrolls/9.png" class="first">
                         </div>
-                        <div class="covenant-scroll">
-                            <img src="/assets/scrolls/8.png" alt="white paper page 8">
+                        <div class="first-img">
+                            <img src="./assets/scrolls/10.png" class="first">
                         </div>
-                        <div class="covenant-scroll">
-                            <img src="/assets/scrolls/9.png" alt="white paper page 9">
-                        </div>
-                        <div class="covenant-scroll">
-                            <img src="/assets/scrolls/10.png" alt="white paper page 10">
-                        </div>
-                        <div class="covenant-scroll">
-                            <img src="/assets/scrolls/11.png" alt="white paper page 11">
-                        </div>
-                        <div class="covenant-scroll">
-                            <img src="/assets/scrolls/12.png" alt="white paper page 12">
+                        <div class="first-img">
+                            <img src="./assets/scrolls/11.png" class="first">
                         </div>
                     </div>
                 </section>
+                
                 <footer>
                     <div class="container row">
                         <div class="infos column sr-top-fast" data-sr-id="6">
@@ -148,12 +179,9 @@
                                     <a href="/terms" class="">Terms & Conditions</a>
                                 </div>
                                 <div class="social row">
-                                    <div class="link">
-                                        <a href="https://twitter.com/cardalordz" name="twitter" rel="noopener" target="_blank" class="twitter row"></a>
-                                    </div>
-                                    <div class="link">
-                                        <a href="https://discord.com/invite/cardalordz" name="Discord" rel="noopener" target="_blank" class="discord row"></a>
-                                    </div>
+                                    <a class="social-link-1" style="text-decoration: none;margin-right:20px;font-size:23px;padding:10px;border-radius: 5px;"  href="https://twitter.com/cardalordz"><img src="./assets/img/twitter.png" style="height:30px;"></a>
+                                    
+                                    <a class="social-link-1" style="text-decoration: none;margin-right:20px;font-size:23px;padding:10px;border-radius: 5px;"  href="https://discord.com/invite/cardalordz"><img src="./assets/img/discord.png" style="height:30px;"></a>
                                 </div>
                         </div>
                     </div>
@@ -181,6 +209,8 @@
               });
         }
     </script>
+    <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+    
     <script async defer src="/js/scrollreveal.js"></script>
     <script async defer src="/js/unpkg-scrollreveal.js"></script>
     <script async defer src="/js/flickity.pkgd.min.js"></script>
@@ -198,5 +228,8 @@
     })();
     </script>
     <!--End of Tawk.to Script-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>

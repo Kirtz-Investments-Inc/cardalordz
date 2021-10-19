@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="sr">
     <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -16,111 +17,230 @@
         <link href="css/countdown.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/mystyle.css">
 
+        <style>
+            .nav-link{
+                color:#030924;
+            }
+            .social-link{
+                color:#899df7;
+                border:1px solid white;
+            }
+            .social-link:hover{
+                background-color:#899df7;
+                border: 1px solid #899df7;
+            }
+            .social-link-1{
+                background-color:white;
+                border:1px solid white;
+                margin-bottom:20px;
+            }
+            .logo-span{
+                    font-size:40px;
+                }
+                .nav-link{
+                    font-size:23px;
+                }
+                #hero{
+                    height:550px;
+                }
+                .question{
+                    font-size:40px;
+                    font-weight:600;
+                }
+                .answer{
+                    font-size:40px;
+                    font-weight:600;
+                }
+
+            @media (max-width:500px){
+                .social-link{
+                    display:none;
+                }
+                .question{
+                    font-size:30px;
+                    font-weight:600;
+                }
+                .answer{
+                    font-size:30px;
+                    font-weight:600;
+                }
+                
+                .first-row{
+                    margin-bottom:0px;
+                    padding:0px;
+                    margin-top:30px;
+                }
+                .first-col{
+                    font-size:10px;
+                }
+                #discord2{
+                    padding:0px;
+                    padding-bottom:50px;
+                }
+                .discord-link{
+                    margin-top:10px;
+                }
+                .member-name{
+                    font-size:30px;
+                }
+                .first,.second, .third{
+                   position: relative;
+                   bottom:40px;
+                }
+                .assad-row{
+                    position:relative;
+                    bottom:120px;
+                }
+                .aussie-row{
+                    position:relative;
+                    bottom:120px;
+                }
+                .circle-row{
+                    position: relative;
+                    bottom:250px;
+                }
+                .fourth{
+                    position:relative;
+                    bottom:20px;
+                }
+                .jack-row{
+                    margin-top:200px;
+                }
+                .vl{
+                    display:none;
+                }
+                .kelly-row{
+                    margin-top:60px;
+                }
+                .link{
+                    text-align: center;
+                }
+                .member-name{
+                    font-size:30px;
+                }
+                .logo-span{
+                    font-size:20px;
+                }
+                .logo-img{
+                    height:50px;
+                }
+                .nav-link{
+                    font-size:18px;
+                }
+                .social-link{
+                    width:20%;
+                    margin-top:20px;
+                }
+                .counter{
+                    margin-top:30px;
+                }
+                #hero{
+                    height:430px;
+                }
+            }
+        </style>
+
     </head>
-    <body style="height: 100%;">
+    <body style="height: 100%;background-color: #02030d;">
     <noscript>
         "<b>We apologize, but the Cardalordz™️ site does not work without JavaScript enabled. Please enable JavaScript to continue.</b>"
     </noscript>
+
+    <section id="hero">
+        <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg" style="padding-top:30px;">
+            <a class="navbar-brand" style="text-decoration: none;" href="#"><img src="./assets/img/logo-tree.png" class="logo-img"><span class="logo-span" style="color:white;font-weight:600;text-decoration: none;margin-left:20px;margin-top:30px;">Cardalordz</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa fa-2x fa-bars" style="color: #030924;" aria-hidden="true"></i></span>
+              </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link link1" style="text-decoration: none;margin-right:20px;" href="index.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="text-decoration: none;margin-right:20px;" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="text-decoration: none;margin-right:20px;" href="covenant.html">Convenant</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="text-decoration: none;margin-right:20px;"  href="faqs.html">FAQs</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link social-link" style="text-decoration: none;margin-right:20px;font-size:23px;padding:10px;border-radius: 5px;"  href="https://twitter.com/cardalordz"><img src="./assets/img/twitter.png" style="height:30px;"></a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link social-link" style="text-decoration: none;margin-right:20px;font-size:23px;padding:10px;border-radius: 5px;"  href="https://discord.com/invite/cardalordz"><img src="./assets/img/discord.png" style="height:30px;"></a>
+                  </li>
+
+              </ul>
+              
+            </div>
+          </nav>
+
+          <div class="counter" style="font-size:30px;">
+            <h3 style="font-size:10px; margin-top:0px;">
+                <a style="font-size:20px;" href="https://logwork.com/countdown-r29s" class="countdown-timer" data-timezone="Asia/Kolkata" data-textcolor="#000000" data-date="2021-11-06 12:46" data-background="#687fc2" data-digitscolor="#ffffff" data-unitscolor="#ffffff">Countdown</a>
+            </h3>
+          </div>
+
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row first-row">
+        <div class="col-md-6 col-sm-12 col-12 col-lg-6 first-col">
+            <div class="question">Meet the Team</div>
+            <div class="answer degrade ">Meet the Team</div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+            <p>Behind every great project lies a great team. CardaLordz took the time to recruit well-rounded 
+                team members that have proven track records of success. 
+                Below, you will be able to explore the many talented team members of the CardaLordz team.
+            </p>
+        </div>
+    </div>
+    </div>
     <div id="app" data-v-app>
         <div id="project">
             <div id="home">
-                <section id="hero">
-                    <header class="container row sr-top-slow" data-sr-id="0" >
-                        <div class="logo row">
-                            <div class="carda-logo"></div>
-                            <div class="typo">Cardalordz</div>
-                            <div class="nav-top-left">
-                              <a href="/index.html">Home</a>
-                            </div>
-                            <div class="nav-top-left">
-                                <a href="/aboutus.html">About Us</a>
-                            </div>
-                            <div class="nav-top-left">
-                              <a href="/covenant.html">Covenant</a>
-                            </div>
-                            <div class="nav-top-left">
-                                <a href="/faqs.html">FAQs</a>
-                            </div>
-                        </div>
-                        <div class="socialnav row">
-                            <div class="link">
-                                <a href="https://twitter.com/cardalordz" name="twitternav" rel="noopener" target="_blank" class="twitter row"></a>
-                            </div>
-                            <div class="link">
-                                <a href="https://discord.com/invite/cardalordz" name="discordnav" rel="noopener" target="_blank" class="discord row"></a>
-                            </div>
-                            <div id="connect-btn">
-                                <button class="wallet">
-                                    <span class="dot"></span>
-                                    Buy Cardalordz
-                                </button>
-                            </div>
-                        </div>
-                    </header>
-
-                    <a class="hero-main-btn clickable" id="hero-main-btn" href="#" target="_blank">
-                        <div class="element">
-                            <div id="clockdiv">
-                                <div>
-                                  <span class="days"></span>
-                                  <div class="smalltext">Days</div>
-                                </div>
-                                <div>
-                                  <span class="hours"></span>
-                                  <div class="smalltext">Hours</div>
-                                </div>
-                                <div>
-                                  <span class="minutes"></span>
-                                  <div class="smalltext">Minutes</div>
-                                </div>
-                                <div>
-                                  <span class="seconds"></span>
-                                  <div class="smalltext">Seconds</div>
-                                </div>
-                              </div>
-                        </div>
-                    </a>
-
-                    <div style="transform: translateY(0px);">
-                        <img src="/assets/img/castles-top-s.png" alt="castles banner">
-                        <!--
-                        <video id="hero-video" tabindex="0" preload playsinline>
-                            <source src="/assets/img/castles-top-s.png" type="video/mp4">
-                        </video>
-                        -->
-                    </div>
-                </section>
+                
                 <section id="team" class="container">
-                    <div class="intro row">
-                        <div class="title">
-                            <div class="question sr-top-fast" data-sr-id="4">Meet the Team</div>
-                            <div class="answer degrade sr-top-fast-delayed" data-sr-id="9">Meet the Team</div>
-                        </div>
-                        <div class="presentation sr-right-super-delayed" data-sr-id="26">
-                            <p>Behind every great project lies a great team. CardaLordz took the time to recruit well-rounded 
-                                team members that have proven track records of success. 
-                                Below, you will be able to explore the many talented team members of the CardaLordz team.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="member row">
-                        <div class="who column sr-left-fast" data-sr-id="27">
-                            <div class="top row">
-                                <h2>Sean Kirtz</h2>
-                                <div class="social row">
-                                    <div class="link">
-                                        <a href="https://twitter.com/SEANSTWITTER" class="network twitter row" name="twitter-sean_" rel="noopenr" target="_blank"></a>
+                    
+                   
+                   
+
+
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-md-8 col-8 col-sm-8 col-lg-8">
+                                    <h2 class="member-name">Sean Kirtz</h2>
+                                </div>
+                                <div class="col-md-4 col-4 col-sm-4 col-lg-4 social" >
+                                    <div class="link twitter-link mx-auto">
+                                        <a href="https://twitter.com/SEANSTWITTER" style="text-align: right;">
+                                             <img src="./assets/img/twitter-white.png" style="height:40px;width:40px;padding-left:4px;padding-top:4px;"></a>
+                                        
                                     </div>
                                 </div>
                             </div>
-                            <img src="/assets/img/sean-about-us.png" alt="Profile picture of Sean">
+                            <div class="row">
+                                <img src="/assets/img/sean-about-us.png" class="member-img" alt="Profile picture of Sean">
+                                <div class="vl"></div>
+                            </div>
                         </div>
-                        <div class="sean-spacer sr-opacity-delayed" data-sr-id="29"></div>
-                        <div class="works column sr-right-fast-delayed sean" data-sr-id="24">
-                            <div class="top row">
+                        
+                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                           
+                            <div class="top row bio-header">
                                 <h3>Bio</h3>
                             </div>
-                            <section class="carousel examples" aria-label="Gallery">
+                            <section class="carousel examples first" aria-label="Gallery">
                                 <p class="example-p">
                                     Sean graduated from Florida Atlantic University as a Magna Cum Laude and received job 
                                     opportunities from established companies. However, Kapota refused the offers and ventured
@@ -137,24 +257,34 @@
                             </section>
                         </div>
                     </div>
-                    <div class="member row">
-                        <div class="who column sr-left-fast" data-sr-id="27">
-                            <div class="top row">
-                                <h2>Dr. Kelly</h2>
-                                <div class="social row">
-                                    <div class="link">
-                                        <a href="https://twitter.com/KELLYTWITTER" class="network twitter row" name="twitter-kelly_" rel="noopenr" target="_blank"></a>
+                   
+
+                    <div class="row kelly-row">
+                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-md-8 col-8 col-sm-8 col-lg-8">
+                                    <h2 class="member-name">Dr. Kelly</h2>
+                                </div>
+                                <div class="col-md-4 col-4 col-sm-4 col-lg-4 social">
+                                    <div class="link twitter-link mx-auto">
+                                        <a href="https://twitter.com/KELLYTWITTER">
+                                            <img src="./assets/img/twitter-white.png" style="height:40px;width:40px;padding-left:4px;padding-top:4px;"></a>
+                                        
                                     </div>
                                 </div>
                             </div>
-                            <img src="/assets/img/dr-kelly-about-us.png" alt="Profile picture of Dr. Kelly">
+                            <div class="row">
+                                <img src="/assets/img/dr-kelly-about-us.png" class="member-img" alt="Profile picture of Dr. Kelly">
+                                <div class="vl"></div>
+                            </div>
                         </div>
-                        <div class="spacer sr-opacity-delayed" data-sr-id="29"></div>
-                        <div class="works column sr-right-fast-delayed" data-sr-id="24">
-                            <div class="top row">
+                        
+                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                           
+                            <div class="top row bio-header">
                                 <h3>Bio</h3>
                             </div>
-                            <section class="carousel examples" aria-label="Gallery">
+                            <section class="carousel examples second" aria-label="Gallery">
                                 <p>
                                     Dr Kelly has an extensive background in Emergency Room medicine with 25 years of 
                                     experience within the field. In 1996, DR Kelly founded his own telemedicine company 
@@ -172,24 +302,35 @@
                             </section>
                         </div>
                     </div>
-                    <div class="member row">
-                        <div class="who column sr-left-fast" data-sr-id="27">
-                            <div class="top row">
-                                <h2>Jack Graham</h2>
-                                <div class="social row">
-                                    <div class="link">
-                                        <a href="https://twitter.com/JACK GRAHAM" class="network twitter row" name="twitter-jack-g_" rel="noopenr" target="_blank"></a>
+
+
+
+                    <div class="row jack-row">
+                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-md-8 col-8 col-sm-8 col-lg-8">
+                                    <h2 class="member-name">Jack Graham</h2>
+                                </div>
+                                <div class="col-md-4 col-4 col-sm-4 col-lg-4 social">
+                                    <div class="link twitter-link mx-auto">
+                                        <a href="https://twitter.com/JACK GRAHAM">
+                                            <img src="./assets/img/twitter-white.png" style="height:40px;width:40px;padding-left:4px;padding-top:4px;"></a>
+                                        
                                     </div>
                                 </div>
                             </div>
-                            <img src="/assets/img/jack-g-about-us.png" alt="Profile picture of Jack">
+                            <div class="row">
+                                <img src="/assets/img/jack-g-about-us.png" class="member-img" alt="Profile picture of Jack">
+                                <div class="vl third-v1"></div>
+                            </div>
                         </div>
-                        <div class="spacer sr-opacity-delayed" data-sr-id="29"></div>
-                        <div class="works column sr-right-fast-delayed" data-sr-id="24">
-                            <div class="top row">
+                        
+                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                           
+                            <div class="top row bio-header">
                                 <h3>Bio</h3>
                             </div>
-                            <section class="carousel examples" aria-label="Gallery">
+                            <section class="carousel examples third" aria-label="Gallery">
                                 <p class="jack-graham">
                                     Jack is a highly-motivated entrepreneur who joins us after supervising the 2020 US Census 
                                     operation and managing the accounts of several moving companies for the past year. 
@@ -201,77 +342,109 @@
                             </section>
                         </div>
                     </div>
-                    <div class="member row">
-                      <div class="who column sr-left-fast" data-sr-id="27">
-                          <div class="top row">
-                              <h2>Assad Ivan</h2>
-                              <div class="social row">
-                                  <div class="link">
-                                      <a href="https://twitter.com/AssadIVANTWITTER" class="network twitter row" name="twitter-assad_" rel="noopenr" target="_blank"></a>
-                                  </div>
-                              </div>
-                          </div>
-                          <img src="/assets/img/assad-about-us.png" alt="Profile picture of Assad">
-                      </div>
-                      <div class="spacer sr-opacity-delayed" data-sr-id="29"></div>
-                      <div class="works column sr-right-fast-delayed" data-sr-id="24">
-                          <div class="top row">
-                              <h3>Bio</h3>
-                          </div>
-                          <section class="carousel examples" aria-label="Gallery">
-                              <p class="assad-ivan">
-                                Assad works as Manager in North American Management (Proactiv Solutions), 
-                                Marketing Director at Kings Code, Web Developer, E-commerce, SEO, and 
-                                Cryptocurrency currently speak at Public Events. Partner in the Prestigious 
-                                Nakamoto Labs, CEO of Little Ninjas CNFTs, and Project Manager of Cardalordz.
-                              </p>
-                          </section>
-                      </div>
-                  </div>
-                  <div class="member row">
-                    <div class="who column sr-left-fast" data-sr-id="27">
-                        <div class="top row">
-                            <h2>Aussie</h2>
-                            <div class="social row">
-                                <div class="link">
-                                    <a href="https://twitter.com/AUSSIE" class="network twitter row" name="twitter-AUSSIE_" rel="noopenr" target="_blank"></a>
+
+
+
+
+                    <div class="row assad-row">
+                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-md-8 col-8 col-sm-8 col-lg-8">
+                                    <h2 class="member-name">Assad Ivan</h2>
                                 </div>
-                            </div>
-                        </div>
-                        <img src="/assets/img/aussie-about-us.jpeg" alt="Profile picture of Aussie">
-                    </div>
-                    <div class="spacer sr-opacity-delayed" data-sr-id="29"></div>
-                    <div class="works column sr-right-fast-delayed" data-sr-id="24">
-                        <div class="top row">
-                            <h3>Bio</h3>
-                        </div>
-                        <section class="carousel examples" aria-label="Gallery">
-                            <p class="aussie">
-                              With a formal background in mathematics, over a decade building tech startups 
-                              as a tech founder and a 2nd Cohort Plutus Pioneer — Aussie had a focus on 
-                              lean technology stacks focusing in the NFT utility space.
-                            </p>
-                        </section>
-                    </div>
-                </div>
-                    <div class="member row">
-                        <div class="who column sr-left-fast" data-sr-id="27">
-                            <div class="top row">
-                                <h2>Circle Purple</h2>
-                                <div class="social row">
-                                    <div class="link">
-                                        <a href="https://twitter.com/AffandiTWITTER" class="network twitter row" name="twitter-circle-purple_" rel="noopenr" target="_blank"></a>
+                                <div class="col-md-4 col-4 col-sm-4 col-lg-4 social">
+                                    <div class="link twitter-link mx-auto">
+                                        <a href="https://twitter.com/AssadIVANTWITTER">
+                                            <img src="./assets/img/twitter-white.png" style="height:40px;width:40px;padding-left:4px;padding-top:4px;"></a>
+                                        
                                     </div>
                                 </div>
                             </div>
-                            <img src="/assets/img/circle-purple-about-us.png" alt="Profile picture of Affandi">
+                            <div class="row">
+                                <img src="/assets/img/assad-about-us.png" class="member-img" alt="Profile picture of Assad">
+                                <div class="vl "></div>
+                            </div>
                         </div>
-                        <div class="spacer sr-opacity-delayed" data-sr-id="29"></div>
-                        <div class="works column sr-right-fast-delayed" data-sr-id="24">
-                            <div class="top row">
+                        
+                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                           
+                            <div class="top row bio-header">
                                 <h3>Bio</h3>
                             </div>
-                            <section class="carousel examples" aria-label="Gallery">
+                            <section class="carousel examples fourth" aria-label="Gallery">
+                                <p class="assad-ivan">
+                                  Assad works as Manager in North American Management (Proactiv Solutions), 
+                                  Marketing Director at Kings Code, Web Developer, E-commerce, SEO, and 
+                                  Cryptocurrency currently speak at Public Events. Partner in the Prestigious 
+                                  Nakamoto Labs, CEO of Little Ninjas CNFTs, and Project Manager of Cardalordz.
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+
+
+                    <div class="row aussie-row">
+                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-md-6 col-6 col-sm-6 col-lg-6">
+                                    <h2 class="member-name">Aussie</h2>
+                                </div>
+                                <div class="col-md-4 col-4 col-sm-4 col-lg-4 social">
+                                    <div class="link twitter-link mx-auto">
+                                        <a href="https://twitter.com/AUSSIE">
+                                            <img src="./assets/img/twitter-white.png" style="height:40px;width:40px;padding-left:4px;padding-top:4px;"></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="/assets/img/aussie-about-us.jpeg" class="member-img" alt="Profile picture of Aussie">
+                                <div class="vl "></div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                           
+                            <div class="top row bio-header">
+                                <h3>Bio</h3>
+                            </div>
+                            <section class="carousel examples fifth" aria-label="Gallery">
+                                <p class="aussie">
+                                  With a formal background in mathematics, over a decade building tech startups 
+                                  as a tech founder and a 2nd Cohort Plutus Pioneer — Aussie had a focus on 
+                                  lean technology stacks focusing in the NFT utility space.
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+
+
+                    <div class="row circle-row">
+                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-md-8 col-8 col-sm-8 col-lg-8">
+                                    <h2>Circle Purple</h2>
+                                </div>
+                                <div class="col-md-4 col-4 col-sm-4 col-lg-4 social">
+                                    <div class="link twitter-link mx-auto">
+                                        <a href="https://twitter.com/AffandiTWITTER">
+                                            <img src="./assets/img/twitter-white.png" style="height:40px;width:40px;padding-left:4px;padding-top:4px;"></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img class="member-img" src="/assets/img/circle-purple-about-us.png" alt="Profile picture of Affandi">
+                                <div class="vl sixth-v1"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                           
+                            <div class="top row bio-header">
+                                <h3>Bio</h3>
+                            </div>
+                            <section class="carousel examples sixth" aria-label="Gallery">
                                 <p>
                                     My name is Affandi, but most people know me as Circle Purple. I was born in Indonesia.
                                     My first experience as a digital artist was when I worked on several band albums
@@ -289,52 +462,70 @@
                             </section>
                         </div>
                     </div>
-                    <div class="member row">
-                      <div class="who column sr-left-fast" data-sr-id="27">
-                          <div class="top row">
-                              <h2>Josh Munson</h2>
-                              <div class="social row">
-                                  <div class="link">
-                                      <a href="https://twitter.com/JOSHTWITTER" class="network twitter row" name="twitter-josh-munson_" rel="noopenr" target="_blank"></a>
-                                  </div>
-                              </div>
-                          </div>
-                          <img src="/assets/img/josh-munson-about-us.png" alt="Profile picture of Josh Munson">
-                      </div>
-                      <div class="spacer sr-opacity-delayed" data-sr-id="29"></div>
-                      <div class="works column sr-right-fast-delayed" data-sr-id="24">
-                          <div class="top row">
-                              <h3>Bio</h3>
-                          </div>
-                          <section class="carousel examples" aria-label="Gallery">
-                              <p class="josh-munson">
-                                Josh has a bachelor’s degree in Economics through Virginia Commonwealth University’s school of 
-                                business. While in school, Josh was an active member of the student managed investment portfolio, 
-                                the investment banking society, and founded the small cap, small business club. He also founded an 
-                                art promotion website, CarolusX, which he ran out of his dorm while in school. 
-                                <br>
-                                <br>
-                                Since graduating, Josh has authored over 20 commissioned press releases for a variety of small 
-                                businesses and cryptocurrency ICOs.
-                              </p>
-                          </section>
-                      </div>
-                  </div>
-                </section>
-                <section id="discord">
-                    <div class="container">
-                        <h2 class="sr-top-fast" data-sr-id="5">
-                            Join our community
-                        </h2> 
-                        <p class="sr-top-fast-delayed" data-sr-id="10">The Cardalordz Discord continues to grow everyday.
-                            Become a member to get the latest news and information right away.
-                        </p>
-                        <div class="sr-top-more-delayed" data-sr-id="13">
-                            <a href="https://discord.com/invite/cardalordz" rel="noopener" target="_blank" class="cta">Join the Discord</a>
+                  
+                    
+                    <div class="row josh-row">
+                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-md-8 col-8 col-sm-8 col-lg-8">
+                                    <h2 class="member-name">Josh Munson</h2>
+                                </div>
+                                <div class="col-md-4 col-4 col-sm-4 col-lg-4 social">
+                                    <div class="link twitter-link mx-auto">
+                                        <a href="https://twitter.com/JOSHTWITTER">
+                                            <img src="./assets/img/twitter-white.png" style="height:40px;width:40px;padding-left:4px;padding-top:4px;"></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="/assets/img/josh-munson-about-us.png" alt="Profile picture of Josh Munson" class="member-img">
+                                <div class="vl  seventh-v1"></div>
+                            </div>
                         </div>
-                        <div class="lord sr-bottom-more-delayed" data-sr-id="31"></div>
+                        
+                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                           
+                            <div class="top row bio-header">
+                                <h3>Bio</h3>
+                            </div>
+                            <section class="carousel examples seventh" aria-label="Gallery">
+                                <p class="josh-munson">
+                                  Josh has a bachelor’s degree in Economics through Virginia Commonwealth University’s school of 
+                                  business. While in school, Josh was an active member of the student managed investment portfolio, 
+                                  the investment banking society, and founded the small cap, small business club. He also founded an 
+                                  art promotion website, CarolusX, which he ran out of his dorm while in school. 
+                                  <br>
+                                  <br>
+                                  Since graduating, Josh has authored over 20 commissioned press releases for a variety of small 
+                                  businesses and cryptocurrency ICOs.
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+
+
+                </section>
+                <section id="discord2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-12 col-lg-12">
+                                <h2 class="sr-top-fast" data-sr-id="5">
+                                    Join our community
+                                </h2> 
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-12 col-lg-12">
+                                <p>
+                                    The Cardalordz Discord continues to grow everyday.
+                                    Become a member to get the latest news and information right away.
+                                </p>
+                                
+                                <a  href="https://discord.com/invite/cardalordz" rel="noopener" target="_blank" class="disc-btn">Join the Discord</a>
+                            </div>
+                        </div>
                     </div>
                 </section>
+                
                 <footer>
                     <div class="container row">
                         <div class="infos column sr-top-fast" data-sr-id="6">
@@ -354,10 +545,15 @@
                                 </div>
                                 <div class="social row">
                                     <div class="link">
-                                        <a href="https://twitter.com/cardalordz" name="twitter" rel="noopener" target="_blank" class="twitter row"></a>
+                                        <a href="https://twitter.com/cardalordz">
+                                            <img src="./assets/img/twitter-white.png" style="height:40px;width:40px;padding-left:4px;padding-top:4px;"></a>
+                                       
+                                        
                                     </div>
-                                    <div class="link">
-                                        <a href="https://discord.com/invite/cardalordz" name="Discord" rel="noopener" target="_blank" class="discord row"></a>
+                                    <div class="link discord-link">
+                                        <a href="https://discord.com/invite/cardalordz">
+                                            <img src="./assets/img/discord-white.png" style="height:40px;width:40px;padding-left:4px;padding-top:4px;"></a>
+                                      
                                     </div>
                                 </div>
                         </div>
@@ -366,7 +562,9 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.logwork.com/widget/countdown.js"></script>
     <script>
+        
         var acc = document.getElementsByClassName("accordion");
         var i;
     
@@ -390,5 +588,9 @@
     <script async defer src="/js/unpkg-scrollreveal.js"></script>
     <script async defer src="/js/flickity.pkgd.min.js"></script>
     <script async defer src="/js/scripts.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>
