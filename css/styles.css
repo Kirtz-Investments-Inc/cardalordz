@@ -118,7 +118,7 @@ header .carda-logo {
     display: block;
     width: 50px;
     height: 60px;
-    background: url(/assets/img/logo-tree.png) no-repeat;
+    background: url("../assets/img/logo-tree.png") no-repeat;
     background-size: cover;
 }
 header .typo {
@@ -147,8 +147,8 @@ header .link a {
 }
 header .twitter {
     background-color: #030924;
-    -webkit-mask: url(/assets/img/logo-twitter.svg) no-repeat center;
-    mask: url(/assets/img/logo-twitter.svg) no-repeat center;
+    -webkit-mask: url("../assets/img/logo-twitter.svg") no-repeat center;
+    mask: url("../assets/img/logo-twitter.svg") no-repeat center;
 }
 header .wallet {
     background: #030924;
@@ -246,8 +246,8 @@ a:-webkit-any-link {
 }
 header .discord {
     background-color: #030924;
-    -webkit-mask: url(/assets/img/logo-discord.svg) no-repeat center;
-    mask: url(/assets/img/logo-discord.svg) no-repeat center;
+    -webkit-mask: url("../assets/img/logo-discord.svg") no-repeat center;
+    mask: url("../assets/img/logo-discord.svg") no-repeat center;
 }
 button, input[type=button], input[type=reset], input[type=submit] {
     appearance: button;
@@ -481,7 +481,7 @@ ol {
 #discord {
     position: relative;
     width: 100%;
-    background: url(/assets/img/discord_background.png) no-repeat;
+    background: url("../assets/img/discord_background.png") no-repeat;
     background-size: cover;
     background-position: 50% left;
     margin-top: 160px;
@@ -522,7 +522,7 @@ footer .carda-logo {
     display: block;
     width: 50px;
     height: 30px;
-    background: url(/assets/img/logo-tree.png) no-repeat;
+    background: url("../assets/img/logo-tree.png") no-repeat;
     background-size: cover;
 }
 footer .baseline {
@@ -569,16 +569,16 @@ footer .link:hover {
 }
 footer .twitter {
     background-color: #fff;
-    -webkit-mask: url(/assets/img/logo-twitter.svg) no-repeat center;
-    mask: url(/assets/img/logo-twitter.svg) no-repeat center;
+    -webkit-mask: url("../assets/img/logo-twitter.svg") no-repeat center;
+    mask: url("../assets/img/logo-twitter.svg") no-repeat center;
 }
 footer .link:last-child {
     margin-right: 0;
 }
 footer .discord {
     background-color: #fff;
-    -webkit-mask: url(/assets/img/logo-discord.svg) no-repeat center;
-    mask: url(/assets/img/logo-discord.svg) no-repeat center;
+    -webkit-mask: url("../assets/img/logo-discord.svg") no-repeat center;
+    mask: url("../assets/img/logo-discord.svg") no-repeat center;
 }
 #discord .cta:hover {
     background: #527bd3;
@@ -640,7 +640,7 @@ a:active, a:hover {
     content: "";
     width: 123px;
     height: 123px;
-    background: url(/images/golden_pyramyd.png) no-repeat;
+    background: url("../images/golden_pyramyd.png") no-repeat;
     left: -60px;
     top: -100px;
 }
@@ -678,13 +678,13 @@ a:active, a:hover {
 }
 #team .twitter {
     background-color: #fff;
-    -webkit-mask: url(/assets/img/twitter-about-small.svg) no-repeat center;
-    mask: url(/assets/img/twitter-about-small.svg) no-repeat center;
+    -webkit-mask: url("../assets/img/twitter-about-small.svg") no-repeat center;
+    mask: url("../assets/img/twitter-about-small.svg") no-repeat center;
 }
 #team .instagram {
     background-color: #fff;
-    -webkit-mask: url(/assets/img/logo-instagram.svg) no-repeat center;
-    mask: url(/assets/img/logo-instagram.svg) no-repeat center;
+    -webkit-mask: url("../assets/img/logo-instagram.svg") no-repeat center;
+    mask: url("../assets/img/logo-instagram.svg") no-repeat center;
 }
 #team .network {
     width: 44px;
@@ -701,6 +701,16 @@ a:active, a:hover {
     left: 38.885%;
     bottom: 0;
     opacity: .4;
+}
+.sean-spacer{
+    position: absolute;
+    width: 2px;
+    height: 400px;
+    background: #687fc2;
+    left: 38.885%;
+    bottom: 0;
+    opacity: .4;
+    top:18%;
 }
 #team .works {
     width: 55.55%;
@@ -723,4 +733,22 @@ a:active, a:hover {
 }
 #team .member {
     margin-top: 80px;
+}
+
+/* roadmap */
+.roadmap-img{
+    height:100%;
+    width:100%;
+}
+.second-row{
+    margin-top:100px;
+}
+
+/* about us  */
+.sean{
+    position:relative;
+    top:80px;
+}
+.example-p{
+    font-size:10px;
 }
