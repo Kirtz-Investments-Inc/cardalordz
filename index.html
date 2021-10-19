@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" class="sr">
     <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,71 +19,17 @@
         <link href="css/carousel.css" rel="stylesheet">
         <link href="css/countdown.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/mystyle.css">
-       
+
         <style>
-            .nav-link{
-                color:#030924;
+            #hero{
+                height:550px;
             }
-            .social-link{
-                color:#899df7;
-                border:1px solid white;
-            }
-            .social-link:hover{
-                background-color:#899df7;
-                border: 1px solid #899df7;
-            }
-            .social-link-1{
-                background-color:white;
-                border:1px solid white;
-                margin-bottom:20px;
-            }
-            .first-img-2{
-                display:none;
-            }
-            .logo-span{
-                    font-size:40px;
-                }
-                .nav-link{
-                    font-size:23px;
-                }
-                #hero{
-                    height:550px;
-                }
-                .presentation-p{
-                    font-size:16px;
-                    font-weight:550px;
-                }
-                .first-row{
-                    margin-top:50px;
-                }
-                .member-img{
-                    height:400px;
-                }
-                .question{
-                    font-size:40px;
-                    font-weight:600;
-                }
-                .answer{
-                    font-size:40px;
-                    font-weight:600;
-                }
-                .nav-item:hover a{
-    border-bottom:3px solid white;
-}
-
-.counter-h3{
-    position: relative;
-    bottom:100px;
-}
-
-.disc-btn button{
-    font-size:20px;
-    font-weight:600;
-}
-            .disc-btn:hover{
-                background-color:#4f5be3;
+            .gif-img{
+                position: relative;bottom:290px;
             }
         </style>
+       
+
     </head>
     <body style="height: 100%;background-color:#02030d;">
     <noscript>
@@ -97,32 +45,33 @@
               </button>
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link link1" style="text-decoration: none;margin-right:20px;" href="index.html">Home <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" style="text-decoration: none;margin-right:20px;" href="aboutus.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="text-decoration: none;margin-right:20px;" href="covenant.html">Convenant</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" style="text-decoration: none;margin-right:20px;"  href="faqs.html">FAQs</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" style="text-decoration: none;margin-right:20px;"  href="prelaunch.html">PreLaunch</a>
-                  </li>
-                  
-                  <li class="nav-item">
-                    <a class="nav-link social-link" style="text-decoration: none;margin-right:20px;font-size:23px;padding:10px;border-radius: 5px;"  href="https://twitter.com/cardalordz"><img src="./assets/img/twitter.png" style="height:30px;"></a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link social-link" style="text-decoration: none;margin-right:20px;font-size:23px;padding:10px;border-radius: 5px;"  href="https://discord.com/invite/cardalordz"><img src="./assets/img/discord.png" style="height:30px;"></a>
-                  </li>
-
-              </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link link1" style="text-decoration: none;margin-right:20px;" href="index.html"><span style="color:white;">Home</span> <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="text-decoration: none;margin-right:20px;color:white;" href="aboutus.html"><span style="color:white;">About Us</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="text-decoration: none;margin-right:20px;color:white;" href="covenant.html"><span style="color:white;">Convenant</span></span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" style="text-decoration: none;margin-right:20px;color:white;"  href="prelaunch.html"><span style="color:white;">PreLaunch</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" style="text-decoration: none;margin-right:20px;color:white;"  href="faqs.html"><span style="color:white;">FAQs</span></a>
+                      </li>
+                      
+                      
+                      <li class="nav-item">
+                        <a class="nav-link social-link" style="text-decoration: none;margin-right:20px;font-size:23px;padding:10px;border-radius: 5px;"  href="https://twitter.com/cardalordz"><img src="./assets/img/twitter-white.png" style="height:30px;"></a>
+                      </li>
+    
+                      <li class="nav-item">
+                        <a class="nav-link social-link" style="text-decoration: none;margin-right:20px;font-size:23px;padding:10px;border-radius: 5px;"  href="https://discord.com/invite/cardalordz"><img src="./assets/img/discord-white.png" style="height:30px;"></a>
+                      </li>
+    
+                  </ul>
               
             </div>
           </nav>
@@ -146,7 +95,7 @@
     <div class="container">
         <div class="first-row row">
         <div class="col-md-6 col-sm-12 col-12 col-lg-6">
-            <img src="./assets/img/CARDALORDz-heads.gif" class="gif-img"/>
+            <img src="./assets/img/Cardalordz gif transparent.gif" class="gif-img"/>
         </div>
         <div class="col-md-6 col-sm-12 col-12 col-lg-6">
             <h2>
@@ -273,213 +222,8 @@
                     </div>
                 </section>
 
-                <div class="container">
-                    <div class="row first-row">
-                    <div class="col-md-6 col-sm-12 col-12 col-lg-6 first-col">
-                        <div class="question">Meet the Team</div>
-                        <div class="answer degrade ">Meet the Team</div>
-                    </div>
-                    <div class="col-md-6 col-sm-12 col-12 col-lg-6">
-                        <p>Behind every great project lies a great team. CardaLordz took the time to recruit well-rounded 
-                            team members that have proven track records of success. 
-                            Below, you will be able to explore the many talented team members of the CardaLordz team.
-                        </p>
-                    </div>
-                </div>
-                </div>
-
-
-                <section id="team" class="container">
-                    <!-- <div class="intro row">
-                        <div class="title">
-                            <div class="question sr-top-fast" data-sr-id="4">Meet the Team</div>
-                            <div class="answer degrade sr-top-fast-delayed" data-sr-id="9">Meet the Team</div>
-                        </div>
-                        <div class="presentation sr-right-super-delayed" data-sr-id="26">
-                            <p>Behind every great project lies a great team. CardaLordz took the time to recruit well-rounded 
-                                team members that have proven track records of success. 
-                                Below, you will be able to explore the many talented team members of the CardaLordz team.
-                            </p>
-                        </div>
-                    </div> -->
-
-                    <div class="row mt-5">
-                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
-                            <div class="row">
-                                <div class="col-md-8 col-8 col-sm-8 col-lg-8">
-                                    <h2 class="member-name">Sean Kirtz</h2>
-                                </div>
-                                <div class="col-md-4 col-4 col-sm-4 col-lg-4 social" >
-                                    <div class="link twitter-link mx-auto">
-                                        <a href="https://twitter.com/SEANSTWITTER" style="text-align: right;">
-                                             <img src="./assets/img/twitter-white.png" style="height:40px;width:40px;padding-left:4px;padding-top:4px;"></a>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <img src="/assets/img/sean-about-us.jpeg" class="member-img" alt="Profile picture of Sean">
-                                <div class="vl"></div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
-                           
-                            <div class="top row bio-header">
-                                <h3>Bio</h3>
-                            </div>
-                            <section class="carousel examples first" aria-label="Gallery">
-                                <p class="example-p">
-                                    Sean graduated from Florida Atlantic University as a Magna Cum Laude and received job 
-                                    opportunities from established companies. However, Kapota refused the offers and ventured
-                                     on his own as an entrepreneur. 
-                                    <br>
-                                    <br>
-                                    His first company, Extreme Web Solutions or XWS, specialized in digital marketing, 
-                                    SEO services, and content writing, among many others. Kapota ran XWS for three years before 
-                                    starting CloutNetwork and then ICO Services Inc.
-                                    <br>
-                                    <br>
-                                    He is the founder of 30k member Bitcoin Day traders and the president of Nakamoto Labs
-                                </p>
-                            </section>
-                        </div>
-                    </div>
-                   
-
-                    <div class="row kelly-row mt-5">
-                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
-                            <div class="row">
-                                <div class="col-md-8 col-8 col-sm-8 col-lg-8">
-                                    <h2 class="member-name">Dr. Kelly</h2>
-                                </div>
-                                <div class="col-md-4 col-4 col-sm-4 col-lg-4 social">
-                                    <div class="link twitter-link mx-auto">
-                                        <a href="https://twitter.com/KELLYTWITTER">
-                                            <img src="./assets/img/twitter-white.png" style="height:40px;width:40px;padding-left:4px;padding-top:4px;"></a>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <img src="/assets/img/dr-kelly-about-us.jpeg" class="member-img" alt="Profile picture of Dr. Kelly">
-                                <div class="vl"></div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
-                           
-                            <div class="top row bio-header">
-                                <h3>Bio</h3>
-                            </div>
-                            <section class="carousel examples second" aria-label="Gallery">
-                                <p>
-                                    Dr Kelly has an extensive background in Emergency Room medicine with 25 years of 
-                                    experience within the field. In 1996, DR Kelly founded his own telemedicine company 
-                                    to provide medical relief to fishermen. 
-                                    <br>
-                                    <br>
-                                    This was one of the first established telemedicine 
-                                    companies in the U.S. He then went on to set up the telemedicine industry used for stroke 
-                                    victims across New Mexico.
-                                    <br>
-                                    <br>
-                                    Dr Kelly sees NFTs as the future for medical document storage and believes that projects 
-                                    as CardaLordz will help to accelerate the transition to a decentralized world.
-                                </p>
-                            </section>
-                        </div>
-                    </div>
-
-
-
-                    <div class="row jack-row mt-5">
-                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
-                            <div class="row jack-row-1">
-                                <div class="col-md-8 col-8 col-sm-8 col-lg-8">
-                                    <h2 class="member-name">Jack Graham</h2>
-                                </div>
-                                <div class="col-md-4 col-4 col-sm-4 col-lg-4 social">
-                                    <div class="link twitter-link mx-auto">
-                                        <a href="https://twitter.com/JACK GRAHAM">
-                                            <img src="./assets/img/twitter-white.png" style="height:40px;width:40px;padding-left:4px;padding-top:4px;"></a>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <img src="/assets/img/jack-g-about-us.jpeg" class="member-img" alt="Profile picture of Jack">
-                                <div class="vl third-v1"></div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
-                           
-                            <div class="top row bio-header">
-                                <h3>Bio</h3>
-                            </div>
-                            <section class="carousel examples third" aria-label="Gallery">
-                                <p class="jack-graham">
-                                    Jack is a highly-motivated entrepreneur who joins us after supervising the 2020 US Census 
-                                    operation and managing the accounts of several moving companies for the past year. 
-                                    <br>
-                                    <br>
-                                    Jack brings a creative spark and youthful energy to the team and will not rest until he sees 
-                                    the project through.
-                                </p>
-                            </section>
-                        </div>
-                    </div>
-
-                    <div class="row circle-row mt-5">
-                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
-                            <div class="row">
-                                <div class="col-md-8 col-8 col-sm-8 col-lg-8">
-                                    <h2>Circle Purple</h2>
-                                </div>
-                                <div class="col-md-4 col-4 col-sm-4 col-lg-4 social">
-                                    <div class="link twitter-link mx-auto">
-                                        <a href="https://twitter.com/AffandiTWITTER">
-                                            <img src="./assets/img/twitter-white.png" style="height:40px;width:40px;padding-left:4px;padding-top:4px;"></a>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <img class="member-img" src="/assets/img/circle-purple-about-us.png" alt="Profile picture of Affandi">
-                                <div class="vl sixth-v1"></div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6 col-sm-12 col-12 col-lg-6">
-                           
-                            <div class="top row bio-header">
-                                <h3>Bio</h3>
-                            </div>
-                            <section class="carousel examples sixth" aria-label="Gallery">
-                                <p>
-                                    My name is Affandi, but most people know me as Circle Purple. I was born in Indonesia.
-                                    My first experience as a digital artist was when I worked on several band albums
-                                     and made merchandise. 
-                                     <br>
-                                     <br>
-                                     I was influenced by several digital artists, such as: Dunmumpord, Kimjunggius, 
-                                     as well as many others. With more than 6 years of experience as a digital artist, 
-                                     I have been trusted to work on a wide variety of projects.
-                                     <br>
-                                     <br>
-                                    Recently, I saw an opportunity to become an NFT artist and I started my journey with The CardaLordz 
-                                    Team as a digital artist. 
-                                </p>
-                            </section>
-                        </div>
-                    </div>
-
-
-
-                    
-                </section>
-                <section id="discord2">
+            
+                <section id="discord">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-12 col-lg-12">

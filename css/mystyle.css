@@ -80,9 +80,6 @@
     position: relative;
     bottom:95px;
   }
-#hero{
-    height:550px;
-}
 
 #discord2{
     background-image: url(../assets/img/discord_background.png);
@@ -134,16 +131,14 @@
     .nav-link{
         font-size:23px;
     }
-    #hero{
-        height:550px;
-    }
     .question{
         font-size:30px;
         font-weight:600;
     }
     .answer{
-        font-size:30px;
+        font-size: 7rem;
         font-weight:600;
+        line-height: 10rem;
     }
     .counter{
         position:relative;
@@ -205,6 +200,8 @@ height:430px;
 .gif-img{
     height:300px;
     width:400px;
+    position:relative;
+    bottom:500px;
 }
 .carousel-card img{
     height:300px;
@@ -351,6 +348,14 @@ height:430px;
 .circle-row{
     position: relative;
     top:20px;
+}
+.gif-img{
+    position: relative;bottom:100px;
+    height:400px;
+}
+#gallary{
+    position:relative;
+    bottom:0px;
 }
 }
 #hero{

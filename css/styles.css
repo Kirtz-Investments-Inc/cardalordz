@@ -239,6 +239,72 @@ p {
     margin-left: 45px;
 
 }
+.nav-link{
+    color:#7e7e7e !important;
+}
+.nav-link
+.nav-item {
+    color: #7e7e7e !important;
+}
+.social-link{
+    color:#899df7;
+    border:1px solid white;
+}
+.social-link:hover{
+    background-color:#899df7;
+    border: 1px solid #899df7;
+}
+.social-link-1{
+    background-color:white;
+    border:1px solid white;
+    margin-bottom:20px;
+}
+.first-img-2{
+    display:none;
+}
+.logo-span{
+    font-size:40px;
+}
+.nav-link{
+    font-size:23px;
+}
+#hero{
+    height:550px;
+}
+.presentation-p{
+    font-size:16px;
+    font-weight:550px;
+}
+.first-row{
+    margin-top:50px;
+}
+.member-img{
+    height:400px;
+}
+.question{
+    font-size:40px;
+    font-weight:600;
+}
+.answer{
+    font-size:40px;
+    font-weight:600;
+}
+.nav-item:hover a{
+    border-bottom:3px solid white;
+}
+
+.counter-h3{
+position: relative;
+bottom:100px;
+}
+
+.disc-btn button{
+font-size:20px;
+font-weight:600;
+}
+.disc-btn:hover{
+    background-color:#4f5be3;
+}
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
@@ -325,7 +391,10 @@ button, input, select {
     overflow: hidden;
 }
 #gallery {
-    margin-bottom: 150px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position:relative;
+    bottom:100px;
 }
 #gallery .carousel {
     overflow: hidden;
@@ -486,6 +555,7 @@ ol {
     background-position: 50% left;
     margin-top: 160px;
     overflow: hidden;
+    margin-top: 10rem;
 }
 #discord .container {
     padding: 100px 60px;
